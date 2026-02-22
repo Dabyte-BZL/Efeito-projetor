@@ -1,0 +1,31 @@
+.projetor-1 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 90%;
+  width: auto;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.2;
+}
+.projetor-2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 90%;
+  width: auto;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+  animation: flash 0.5s infinite alternate ease-in-out;
+}
+  @keyframes flash {
+    0% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 0.8;
+    }
+  }
+
